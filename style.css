@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+
+}
+header{
+    background-color: rgb(196, 255, 240);
+    width: 100%;
+    height: 80px;
+}
+main{
+    display: flex;
+    height: calc(100vh - 180px); 
+}
+.sidebar{
+    background-color: rgb(219, 135, 222);
+    width: 20vw;
+    height: calc(100vh - 180px);
+}
+.content{
+    background-color: cadetblue;
+    height: calc(100vh - 180px);
+
+}
+
+
+footer{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
